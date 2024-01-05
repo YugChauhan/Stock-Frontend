@@ -8,7 +8,7 @@ function StockPrice() {
 
   const fetchStocksFromBackend = async () => {
     try {
-      const response = await axios.get(`http://localhost:8000/stocks/${n}`); // Replace with your backend URL
+      const response = await axios.get(`https://weak-gray-mite-robe.cyclic.app/stocks/${n}`); // Replace with your backend URL
       setStocks(response.data.stocks);
       setError(null);
     } catch (error) {
