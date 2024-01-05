@@ -12,7 +12,7 @@ function StockPrice() {
       setStocks(response.data.stocks);
       setError(null);
     } catch (error) {
-      setError('Error fetching stocks from the backend');
+      setError('Wait....');
     }
   };
 
